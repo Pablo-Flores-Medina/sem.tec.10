@@ -9,6 +9,13 @@ def emptySquare():
 def filledSquare():
   pass  # TODO
 
+def filledCircle():
+    t = turtle.Turtle()
+    t.fillcolor('red')  # set the fillcolor
+    t.begin_fill()  # start the filling color 
+    t.circle(100)
+    t.end_fill()
+
 
 while True:
     screen = Screen()
